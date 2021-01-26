@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    
+
+    <p>  Scope: @Model.IM_scope   || @Model.IM_scop2</p>
+    <p> Transient: @Model.IM_trans || @Model.IM_tran2</p>
+    <p> Singleton: @Model.IM_sing   || @Model.IM_sing2</p>
+</div>

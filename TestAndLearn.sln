@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAndLearn", "TestAndLearn\TestAndLearn.csproj", "{04FB8ACA-A7AD-458A-B10C-78CA06FC0CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAndLearn", "TestAndLearn\TestAndLearn.csproj", "{04FB8ACA-A7AD-458A-B10C-78CA06FC0CF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WAPart", "WAPart\WAPart.csproj", "{EBF16FB1-9813-430F-BB91-DA98FD1176A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDataAccessLibrary", "EFDataAccessLibrary\EFDataAccessLibrary.csproj", "{10548EDC-D7EB-46DF-B2F2-BE9842366190}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{04FB8ACA-A7AD-458A-B10C-78CA06FC0CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04FB8ACA-A7AD-458A-B10C-78CA06FC0CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04FB8ACA-A7AD-458A-B10C-78CA06FC0CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF16FB1-9813-430F-BB91-DA98FD1176A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF16FB1-9813-430F-BB91-DA98FD1176A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF16FB1-9813-430F-BB91-DA98FD1176A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF16FB1-9813-430F-BB91-DA98FD1176A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10548EDC-D7EB-46DF-B2F2-BE9842366190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10548EDC-D7EB-46DF-B2F2-BE9842366190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10548EDC-D7EB-46DF-B2F2-BE9842366190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10548EDC-D7EB-46DF-B2F2-BE9842366190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

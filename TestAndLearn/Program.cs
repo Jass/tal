@@ -23,10 +23,16 @@ namespace TestAndLearn
             //---------DI   ------//
 
             DI.ExampleDi example = new DI.ExampleDi();
-            ServiceProvider provider = example.Init();
+            ServiceProvider provider = example.Init().BuildServiceProvider();
 
             DI.CallPrint call = new DI.CallPrint(provider.GetRequiredService<DI.ExampleDi.GetPrintMethod>());
-            Console.WriteLine();
+
+
+            Console.WriteLine("rand1: ");
+            DI.CallRandom callrand = provider.GetService<DI.CallRandom>();
+            Console.WriteLine("rand2: ");
+            DI.CallRandom rand2 = provider.GetService<DI.CallRandom>();
+            Console.ReadLine();
 
         }
     }

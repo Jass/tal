@@ -1,0 +1,70 @@
+[
+  {
+
+    "FirstName":"andru",
+    "LastName":"Boobe",
+    "Age":33,
+    "Addresses": [
+      {
+        "StreetAddress":"Grattam Street",
+        "City":"Martinsville",
+        "State":"Souuth Dakota",
+        "ZipCode":"78351-0000"
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "Address": "boobe@urbanshee.com"
+
+      },
+      {
+        "Address": "boobe@homeville.com"
+
+      }
+    ]
+  },
+
+  {
+
+    "FirstName":"Natan",
+    "LastName":"Grey",
+    "Age":45,
+    "Addresses": [
+      {
+        "StreetAddress":"Vedly Street",
+        "City":"Nothernville",
+        "State":"Atlantic",
+        "ZipCode":"4321-000"
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "Address":"grey_natan@atlantic.ca"
+
+      }
+    ]
+  },
+
+
+  {
+
+    "FirstName":"Klara",
+    "LastName":"Vaald",
+    "Age":26,
+    "Addresses": [
+      {
+        "StreetAddress":"Boony Stony",
+        "City":"Pert",
+        "State":"SA",
+        "ZipCode":"3434-9898"
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "Address":"vaald.33@somewhere.emailme.com"
+
+      }
+    ]
+  }
+
+]
